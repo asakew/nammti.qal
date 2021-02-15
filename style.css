@@ -5,3 +5,57 @@ Version: 1.0
 Description: instini rasmiy sayti
 Tags: blog, news, photos
 */
+
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    }
+    @media (min-width: 952px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+    }
+    spam.s{
+    atext-transform: uppercase;
+    }
+    .rasmcha{
+    width: 100%;
+    z-index: -1;
+    }
+    .text{
+    text-align: center;
+    }
+    .radius {
+    border-radius: 25px
+    }
+    .img-zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+    .accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
